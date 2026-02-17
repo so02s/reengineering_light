@@ -1910,7 +1910,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "MB10F"
 			(at 54.61 36.83 0)
 			(effects
 				(font
