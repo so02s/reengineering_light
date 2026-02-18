@@ -9,11 +9,10 @@ The original device is a 220V AC powered LED light with 6 SMD LEDs.
 *   `README.md` - This file.
 
 ## Scheme
-
 ![Schematic Diagram](photos/schematic.png)
 
-![PCB Top View](photos/pcb_top.png)
-![PCB Working View](photos/pcb_working.png)
+## Photos
+![PCB Top View](photos/pcb_top.jpg)
 
 ## Key Measurements
 *   Input Voltage: ~220V AC
