@@ -1139,7 +1139,7 @@
 	)
 	(rectangle
 		(start 72.39 17.78)
-		(end 146.05 52.07)
+		(end 156.21 52.07)
 		(stroke
 			(width 0)
 			(type default)
@@ -1148,6 +1148,26 @@
 			(type none)
 		)
 		(uuid c58b805d-ad5c-4cba-8b41-e4fd1ec2feb4)
+	)
+	(text "4.5V"
+		(exclude_from_sim no)
+		(at 140.208 32.766 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0b0bac04-ca16-4c0e-9abc-2c967a6ca71e")
+	)
+	(text "17.8V -> 15V"
+		(exclude_from_sim no)
+		(at 99.314 32.766 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "69590dac-ec93-42f6-b9c7-e89d477c249d")
 	)
 	(text "AC/DC Conventor"
 		(exclude_from_sim no)
@@ -1172,16 +1192,6 @@
 			)
 		)
 		(uuid "e6a55a5d-6fd1-4830-809d-4c26df554c57")
-	)
-	(text "Idk what voltage on output after converter\nI think it's 60-80V but need to find proof"
-		(exclude_from_sim no)
-		(at 41.148 67.056 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e72d55af-91eb-4ff8-9b07-bba9e81f652e")
 	)
 	(junction
 		(at 36.83 41.91)
@@ -1209,7 +1219,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 36.83) (xy 139.7 38.1)
+			(xy 151.13 36.83) (xy 151.13 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1279,7 +1289,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 29.21) (xy 88.9 29.21)
+			(xy 95.25 29.21) (xy 88.9 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1316,6 +1326,16 @@
 			(type default)
 		)
 		(uuid "90d2a2f3-848a-4c3f-ba9a-19683a88d79a")
+	)
+	(wire
+		(pts
+			(xy 109.22 29.21) (xy 102.87 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "961fa0ab-718c-4671-a3a9-e334b1868326")
 	)
 	(wire
 		(pts
@@ -1399,7 +1419,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 29.21) (xy 135.89 29.21)
+			(xy 151.13 29.21) (xy 147.32 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1492,7 +1512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+V"
+		(property "Value" "17.8V"
 			(at 63.5 36.322 0)
 			(effects
 				(font
@@ -1622,7 +1642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+V"
+		(property "Value" "17.8V"
 			(at 77.47 22.606 0)
 			(effects
 				(font
@@ -1740,7 +1760,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 124.46 29.21 180)
+		(at 135.89 29.21 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1749,7 +1769,7 @@
 		(fields_autoplaced yes)
 		(uuid "5558b04f-72a8-423e-96cf-d3fcfbb456c0")
 		(property "Reference" "D5"
-			(at 126.0475 21.59 0)
+			(at 137.4775 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1757,7 +1777,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 126.0475 24.13 0)
+			(at 137.4775 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1765,7 +1785,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 29.21 0)
+			(at 135.89 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1774,7 +1794,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 29.21 0)
+			(at 135.89 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1783,7 +1803,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 124.46 29.21 0)
+			(at 135.89 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1792,7 +1812,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 124.46 29.21 0)
+			(at 135.89 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1817,7 +1837,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 132.08 29.21 180)
+		(at 143.51 29.21 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1826,7 +1846,7 @@
 		(fields_autoplaced yes)
 		(uuid "58991442-d31b-4c64-9ae3-9d915c99bb47")
 		(property "Reference" "D6"
-			(at 133.6675 21.59 0)
+			(at 145.0975 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1834,7 +1854,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 133.6675 24.13 0)
+			(at 145.0975 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1842,7 +1862,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 29.21 0)
+			(at 143.51 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1851,7 +1871,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 29.21 0)
+			(at 143.51 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1860,7 +1880,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 132.08 29.21 0)
+			(at 143.51 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1869,7 +1889,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 132.08 29.21 0)
+			(at 143.51 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1968,7 +1988,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 116.84 29.21 180)
+		(at 128.27 29.21 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1977,7 +1997,7 @@
 		(fields_autoplaced yes)
 		(uuid "7df96d1e-06d3-4fe4-a5ab-445cbfa1509d")
 		(property "Reference" "D4"
-			(at 118.4275 21.59 0)
+			(at 129.8575 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1985,7 +2005,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 118.4275 24.13 0)
+			(at 129.8575 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1993,7 +2013,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 29.21 0)
+			(at 128.27 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2002,7 +2022,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 29.21 0)
+			(at 128.27 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2011,7 +2031,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 116.84 29.21 0)
+			(at 128.27 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2020,7 +2040,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 116.84 29.21 0)
+			(at 128.27 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2045,7 +2065,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 139.7 38.1 0)
+		(at 151.13 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2054,7 +2074,7 @@
 		(fields_autoplaced yes)
 		(uuid "84591a05-6632-4d2b-942b-8266322bfa89")
 		(property "Reference" "#PWR05"
-			(at 139.7 44.45 0)
+			(at 151.13 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2063,7 +2083,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 43.18 0)
+			(at 151.13 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2071,7 +2091,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 38.1 0)
+			(at 151.13 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2080,7 +2100,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 38.1 0)
+			(at 151.13 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2089,7 +2109,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 38.1 0)
+			(at 151.13 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2177,7 +2197,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 109.22 29.21 180)
+		(at 120.65 29.21 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2186,7 +2206,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4d287f7-d409-4f1d-a64b-855b78016a0c")
 		(property "Reference" "D3"
-			(at 110.8075 21.59 0)
+			(at 122.2375 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2194,7 +2214,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 110.8075 24.13 0)
+			(at 122.2375 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2202,7 +2222,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 29.21 0)
+			(at 120.65 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2211,7 +2231,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 29.21 0)
+			(at 120.65 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2220,7 +2240,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 109.22 29.21 0)
+			(at 120.65 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2229,7 +2249,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 109.22 29.21 0)
+			(at 120.65 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2254,7 +2274,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 93.98 29.21 180)
+		(at 99.06 29.21 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2263,7 +2283,7 @@
 		(fields_autoplaced yes)
 		(uuid "be23e8a3-6fc2-40d7-8193-1a0cb84fb214")
 		(property "Reference" "D1"
-			(at 95.5675 21.59 0)
+			(at 100.6475 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2271,7 +2291,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 95.5675 24.13 0)
+			(at 100.6475 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2279,7 +2299,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 29.21 0)
+			(at 99.06 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2288,7 +2308,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 29.21 0)
+			(at 99.06 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2297,7 +2317,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 93.98 29.21 0)
+			(at 99.06 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2306,7 +2326,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 93.98 29.21 0)
+			(at 99.06 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2540,7 +2560,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 101.6 29.21 180)
+		(at 113.03 29.21 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2549,7 +2569,7 @@
 		(fields_autoplaced yes)
 		(uuid "e4ad850d-929f-4b26-a414-93cd4631ae0d")
 		(property "Reference" "D2"
-			(at 103.1875 21.59 0)
+			(at 114.6175 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2557,7 +2577,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 103.1875 24.13 0)
+			(at 114.6175 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2565,7 +2585,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 29.21 0)
+			(at 113.03 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2574,7 +2594,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 29.21 0)
+			(at 113.03 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2583,7 +2603,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 101.6 29.21 0)
+			(at 113.03 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2592,7 +2612,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 101.6 29.21 0)
+			(at 113.03 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2683,7 +2703,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 139.7 33.02 0)
+		(at 151.13 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2691,7 +2711,7 @@
 		(dnp no)
 		(uuid "feb3bac3-9b82-4bc1-becb-9d3eae3e63f6")
 		(property "Reference" "R2"
-			(at 135.382 33.02 0)
+			(at 146.812 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2700,7 +2720,7 @@
 			)
 		)
 		(property "Value" "150"
-			(at 141.478 33.02 0)
+			(at 152.908 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2709,7 +2729,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.922 33.02 90)
+			(at 149.352 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2718,7 +2738,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 33.02 0)
+			(at 151.13 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2727,7 +2747,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 139.7 33.02 0)
+			(at 151.13 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
