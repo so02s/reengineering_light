@@ -26,7 +26,27 @@ The original device is a 220V AC powered LED light with 6 SMD LEDs.
 | **C1** | 0.22µF / CBB22 224J 400V | Ballast Capacitor |
 | **R1** | 1M | Discharges C1 when unplugged |
 | **U1** | MB10F | Diode Bridge |
-| **C2** | 4.7µF 100V | Filter |
+| **C2** | 4.7µF 100V | Smoothing capacitor |
 | **R2** | 150 | Current sense / limiting |
 | **R3** | 300k | Discharges C2 |
 | **D1-6** | SMD LED (Yellow, 2.8V) | Light |
+
+## Some interesting studies
+
+While working on the circuit, I consulted some people and articles to understand things that were not obvious to me:
+
+1.  **How to measure current in a circuit:**
+    - Shunt method
+    
+    I still need to try this (haven't done it yet).
+
+2.  **How smoothing capacitors work:**
+
+    ![Diode Bridge](photos/diode_bridge.png)
+
+    Although I know how a diode bridge works, the voltage after it needs to be smoothed.
+
+
+    ![Smooth Capasitor](photos/smooth_capasitor.png)
+
+    For information on calculating the required voltage, you can read this article: [Tube Power Supplies](https://diyaudioprojects.com/Technical/Tube-Power-Supplies/). It references an interesting book: [Rectifier Applications Handbook](https://www.thierry-lequeu.fr/data/HB214.pdf).
